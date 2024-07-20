@@ -1,0 +1,304 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+nav{
+    width:100%;
+    position:sticky !important;
+    left:0px;
+    top:0px;
+    z-index:10;
+    
+    
+
+}
+
+.navbar-brand{
+    font-weight:600;
+
+}
+
+.nav-link{
+    color:white !important;
+   
+}
+.nav-link:hover{
+    border-bottom:1px solid white;
+}
+
+section{
+    width:100%;
+    min-height:100vh;
+
+}
+
+/*Home page*/
+#home{
+    width:100%;
+    height:100vh;
+    background-color:black !important;
+    opacity:0.8;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+
+    color:white;
+    margin-bottom:20%;
+   
+}
+
+#home p{
+    position:absolute;
+    top:50%;
+    font-size:100px;
+    opacity:0;
+    animation:text 3s ease-in-out;
+
+}
+
+#home p:nth-child(1){
+    animation-delay:0s;
+}
+#home p:nth-child(2){
+    animation-delay:3s;
+}
+#home p:nth-child(3){
+    animation-delay:6s;
+}
+#home p:nth-child(4){
+    animation-delay:9s;
+}
+#home p:nth-child(5){
+    animation-delay:12s;
+}
+#home p:nth-child(6){
+    animation-delay:15s;
+}
+
+
+@keyframes text{
+    50%{
+        opacity:1;
+    }
+
+100%{
+    opacity:0;
+}
+
+}
+
+@media screen and (max-width:576px){
+    #home p{
+       font-size:60px;
+    }
+
+}
+
+#home span{
+    color:yellow;
+}
+
+#home{
+    width:100%;
+    height:100vh;
+    background:url(Attachments/computer-image.JPG);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+   
+}
+
+/*Skills page*/
+
+#skills #div{
+    padding-top:50px;
+}
+
+@media screen and (max-width:992px){
+    #skills label , .progress {
+        margin-left:20px;
+        margin-top:20px;
+    }
+}
+
+
+#skills{
+   
+    background-color:#e5e5e5;
+    margin-bottom:5%;
+}
+
+#skills .container{
+    margin-bottom:20px;
+ 
+}
+
+label{
+    font-size:17px;
+}
+
+/*Project page*/
+
+
+
+#project #div{
+    padding-top:50px;
+}
+
+/*Certificates page*/
+
+#certificates div{
+    padding-top:50px;
+}
+#certificates #c1{
+    height:200px;
+    width:200px;
+    margin-top:10px;
+    margin-bottom:1px;
+    margin-left:10px;
+    margin-right:1px;
+   
+}
+
+#certificates #c2{
+    height:200px;
+    width:200px;
+    margin-top:10px;
+    margin-bottom:1px;
+    margin-left:1opx;
+    margin-right:1px;
+  
+  
+}
+
+#certificates #c3{
+    height:200px;
+    width:200px;
+    margin-top:10px;
+    margin-bottom:1px;
+    margin-left:10px;
+    margin-right:10px;
+  
+   
+}
+
+
+@media screen and (max-width:1400px){
+   
+    #certificates #container{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width:992px){
+   
+    #certificates #container{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+
+    }
+   #certificates #c1{
+    height:150px;
+    width:150px;
+
+    }
+    #certificates #c2{
+        height:150px;
+        width:150px;
+    
+        }
+        #certificates #c3{
+            height:150px;
+            width:150px;
+        
+            }
+}
+
+@media screen and (max-width:767px){
+    #certificates #c1 {
+     
+        height:100px;
+        margin:10px;
+       
+        
+    }
+    #certificates #c2 {
+       
+        height:100px;
+        margin:10px;
+        
+        
+        
+    }
+    #certificates #c3 {
+      
+        height:100px;
+        margin:10px;
+        margin-bottom: 100px;
+        
+        
+    }
+}
+@media screen and (max-width:767px){
+    #certificates #c3 {
+        height:100px;
+        margin:10px;
+      
+    }
+    #certificates #container{
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}
+
+#certificates #container{
+    display:flex;
+}
+
+#certificates label{
+    font-size:10px;
+}
+
+/*Education Page*/
+#education #div{
+    padding-top:50px;
+}
+
+#education h1 {
+    margin:10px;
+    margin-bottom:50px;
+}
+
+#education #information{
+    display:inline-block;
+    position:relative;
+    top:40px;
+    width:200px;
+    margin:10px;
+    border:1px solid blue;
+}
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
